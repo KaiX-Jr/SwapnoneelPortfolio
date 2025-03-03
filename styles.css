@@ -286,6 +286,30 @@ html {
     margin-right: auto;
 }
 
+/* Social Links */
+.social-links {
+    margin-top: 2rem;
+}
+
+.linkedin-link {
+    display: inline-block;
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+}
+
+.linkedin-link:hover {
+    background: rgba(100, 255, 218, 0.1);
+}
+
+.linkedin-link i {
+    margin-right: 0.5rem;
+}
+
 /* Footer */
 .footer {
     padding: 2rem 7%;
